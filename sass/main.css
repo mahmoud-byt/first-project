@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.repos-container {
+  min-height: 100vw;
+  margin: 50px 0;
+}
+.repos-container .repos {
+  background-color: #e7e7e7;
+  width: 800px;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.repos-container .repos input {
+  border: 3px solid #03344e;
+  height: 50px;
+  flex: 2;
+}
+.repos-container .repos input::-moz-placeholder {
+  text-align: center;
+  color: #777;
+}
+.repos-container .repos input:-ms-input-placeholder {
+  text-align: center;
+  color: #777;
+}
+.repos-container .repos input::placeholder {
+  text-align: center;
+  color: #777;
+}
+.repos-container .repos input:focus {
+  outline: none;
+}
+.repos-container .repos span {
+  flex: 1;
+  border-radius: 7px;
+  height: 50px;
+  background-color: #03344e;
+  margin: auto 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repos-container .show-data {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  height: 50px;
+}
+.repos-container .show-data div {
+  background-color: #777;
+  color: white;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
